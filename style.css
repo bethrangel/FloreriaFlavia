@@ -1,0 +1,72 @@
+body {
+    /* color de fondo */
+    /* background-color: beige; */
+    background: linear-gradient(#f4f4f6, #e6e6e9);  
+
+    /* Para poner imágenes de fondo /*
+   /* background: url(https://previews.123rf.com/images/pixhound/pixhound2006/pixhound200600042/149374916-abstract-light-pastel-yellow-and-white-strip-pattern-background-for-wallpaper-or-design-work.jpg); */
+
+    /* para poner fuente o tipografía en todo el cuerpo o body */ 
+    font-family: "Montserrat", sans-serif; 
+}
+
+h1 {
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+}
+
+/* aquí puse el h1 enfrene del h3 para que se aplicaran las mismas configuraciones que al h3 */
+h3 {
+    /*cambiar color de texto, se cambiará a todos los h3*/
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+
+/* height es para cambiar la altura, se puede con px o con porcentaje. Width es para la anchura. Es recomendable solo usar uno para que la imagen no se distorsione */
+img {
+    width: 49%;
+    border-radius: 0px;
+}
+
+/* para modificar el css de un elemento html en particular se crea una clase (class) y esta la llamamos en el css con un punto .(nombre) Este debería ir hasta arriba porque es el primer elemento de mi página*/
+.jardincolgante { 
+    width: 50%;
+}
+
+/* editar div del menu // DISPLAY FLEX flexible para mover los elementos en conjunto // ALIGN-ITEMS: alinear los elementos del div */
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* anclas del menú */
+a {
+color: rgb(63, 58, 58);
+text-decoration: none;
+}
+
+.container {
+    background-color: blue;
+    display: flex;
+   align-items: center;
+}
+
+/* Para agregar una imagen a un texto 
+1. se hizo un div del texto y la imagen. 
+2. Se puso una clase a la imagen
+3. Se ajustó el tamaño con widht y el margin-right nos ayudo a dar espacio entre la imagen y el texto*/
+.bouquetrustico {
+    width: 150px;
+    margin-right: 40px;
+}
+
+/*  Para centrar imágenes
+1. Crear un div y otorgarle una clase (aunque la imagen ya tenga una clase se tiene que usar la del div)*/
+.imagencentro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

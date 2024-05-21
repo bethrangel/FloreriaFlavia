@@ -1,0 +1,150 @@
+<!-- asi se escriben los comentarios-->
+<!-- DOCTYPE -Es una declaración de que es un archivo html-->
+<!DOCTYPE html>
+<html lang="en">
+<!-- head es la metadata e información. Va a mandar toda la metadata al servidor -->    
+<head>
+    <!-- meta es la información que no se puede ver -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title es el título de la pestañita de arriba -->
+    <title>Flavia</title>
+    <!-- todo lo que está en el head no se va a ver, el body si -->
+    <!-- favicon (loguito de la página)-->
+    <link rel="icon" href="/Images/letra-f.png">
+    
+    <!-- enlace con hoja de estilo css-->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Link o código para poner fuente desde Google fonts  // FUENTE DE TEXTO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- FUENTE DE h3 o título de parrafo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- h1 es encabezado principal-->
+    <h1>FLORERÍA FLAVIA</h1>
+
+    <div class="imagencentro">
+        <img class="jardincolgante" src="/Images/jardin colgante.webp" alt="Jardin colgante">
+    </div>
+    
+
+
+    <p>
+    Cultivamos flores que "sienten vida", que florecen en los campos y se mecen con el viento.
+    <br>
+    Brotes, que comienzan a abrirse, florescen y terminan.
+    <br>
+    La comodidad que sientes cuando te adentras en una montaña o bosque. Una sensación de volver a la naturaleza.
+    <br>
+    El objetivo de Flavia es crear una sensación de armonía con la naturaleza.
+    <br>
+    La apariencia de cada rama muestra la intención de mirar al sol con determinación en su lugar determinado.
+    <br>
+    Una presencia que se puede sentir de forma silenciosa pero segura.
+    <br>
+    Nuestro objetivo es crear arreglos que te permitan sentir el suave tiempo de las flores y volver a tu estado mental ideal.
+    </p>
+
+    <!-- IMÁGENES (src) significa fuente y (alt) es el texto alternativo de la imagen en caso de que no se pueda mostrar la imagen -->
+    <img src="/Images/arreglo1.jpeg" alt="Flores rojas">
+
+    <!-- br (break) es para que las imágenes se vayan para abajo -->
+
+    <!-- Para poner imágenes directo de la compu se descargan, se agrega una diagonal / en source y se elige la ubicación de la imagen-->
+    <img src="/Images/arreglo2.jpg" alt="Suculentas">
+    <br>
+
+    <!-- NAVEGACIÓN CON ANCLAS a href y ponemos un hashtag seguido de un nombre en minúsculas -->
+    <!-- div es como una cajita invisible para que todos los elementos que estén dentro se modifiquen juntos --> 
+    <div class="menu">
+        <a href="#rosas">Rosas</a>
+        <a href="#tulipanes">Tulipanes</a>
+        <a href="#girasoles">Girasoles</a>
+        <a href="#hortensia">Hortensia</a>
+        <a href="#dalia">Dalia</a>
+        <a href="#clavel">Clavel</a>
+        <a href="#contactanos">Contáctanos</a> 
+    </div>
+    
+
+    <!--LISTAS ORDENADAS (li significa item list o elemento de lista)-->
+    <h3>Flores más populares</h3>
+    <ol>
+        <li>Rosas</li>
+        <p>
+            Son flores hechizantes porque, además de sus colores, poseen un aroma delicioso al que no te resistirás, además, son símbolo del amor, la belleza y la pasión, lo que la convierte en una de las especies más poderosas de la naturaleza
+        </p>
+        <li>Tulipanes</li>
+        <p>
+            El tulipán es un símbolo de amor sincero. Es una flor increíblemente romántica que al regalarla expresas enamoramiento, pasión, amor incondicional y amor puro.
+        </p>
+    </ol>
+
+<!--LISTAS no ORDENADAS (ul)-->
+<h3>Flores que manejamos</h3>
+<ul>
+    <li>Girasoles</li>
+    <li>Hortensia</li>
+    <li>Dalia</li>
+    <li>Clavel</li>
+</ul>
+
+<!-- PÁRRAFOS Y NAVEGACIÓN-->
+
+<h3 id="girasoles">Girasoles</h3>
+<p>
+    El girasol es el símbolo del Sol y simboliza el amor y la admiración. Pero también la felicidad, la vitalidad, el positivismo y la energía. En la cultura china simboliza una larga vida y buena suerte.
+</p>
+
+<h3 id="hortensia">Hortensia</h3>
+<p>
+    La hortensia es una planta repleta de simbolismo que representa la abundancia, la belleza y la gratitud.
+</p>
+
+<h3 id="dalia">Dalia</h3>
+<p>
+    Las dalias se relacionan con el compromiso, el cariño y la elegancia.
+</p>
+<h3 id="clavel">Clavel</h3>
+<p>
+    El clavel simboliza la pasión, el afecto, el anhelo y el romance.
+</p>
+<h3 id="contactanos">Contáctanos</h3>
+<p>
+Contáctanos a través de los siguientes medios
+</p>
+
+<!-- PONER IMÁGENES QUE AL SAR CLIC NOS LLEVE A OTRA PARTE-->
+<!-- a ancla o anchor = es para redirigir a otro sitio web o a demtro del mismo sitio -->
+<!-- href donde quieres que te redirija -->
+
+<h3>Compra con nosotros los bouquets más aesthetic</h3>
+<a href="https://www.enviaflores.com/">
+    <img src="/Images/arreglo 4.webp" alt="Bouquet muestra">
+</a>
+
+<p>
+    Esta página utiliza íconos de 
+    <a href="https://www.flaticon.es/iconos-gratis/letra-f" title="letra f iconos">Letra f iconos creados por Aranagraphics - Flaticon</a>
+
+    <div class="container">
+        <img class="bouquetrustico" src="/Images/arreglo 3.webp" alt="bouquet de rosas">
+        <p>Este es un bouquet de rosas</p>  
+    </div>
+    
+
+
+</p>
+
+</body>
+</html>
